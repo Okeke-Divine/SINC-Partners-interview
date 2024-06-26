@@ -9,7 +9,7 @@ const Equity = () => {
           </div>
         </div>
         <div className="mt-5 flex justify-center">
-          <Link href={""} className="flex gap-1 font-bold mt-2">
+          <Link href={"#"} className="flex gap-1 font-bold mt-2">
             <span className="font-bold underline">Build your dream</span>
             <div>
               <svg width="22" height="23" viewBox="0 0 22 23" fill="none" xmlns="http://www.w3.org/2000/svg">
