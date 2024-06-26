@@ -31,19 +31,19 @@ const InvestorsNetwork = () => {
               <div className="py-5 px-5 border-r-[1px] border-[#A4A4A4]">
                 <div className="font-bold">Deal 2</div>
                 <div className="mt-2">
-                  <div>✓ Idea Stage: $5k for 5% Equity</div>
-                  <div>✓ Expected Revenue at This Stage: $0/mth</div>
-                  <div>✓ Duration of Raise: 1mth</div>
-                  <div>✓ Who Can Invest: People with Domain Expertise and Advisors  </div>
+                  <div>✓ Idea Stage: <b>$5k for 5% Equity</b></div>
+                  <div>✓ Expected Revenue at This Stage: <b>$0/mth</b></div>
+                  <div>✓ Duration of Raise: <b>1mth</b></div>
+                  <div>✓ Who Can Invest: <b>People with Domain Expertise and Advisors </b> </div>
                 </div>
               </div>
               <div className="py-5 px-5 border-r-[1px] border-[#A4A4A4]">
                 <div className="font-bold">Deal 3</div>
                 <div className="mt-2">
-                  <div>✓ Idea Stage: $5k for 5% Equity</div>
-                  <div>✓ Expected Revenue at This Stage: $0/mth</div>
-                  <div>✓ Duration of Raise: 1mth</div>
-                  <div>✓ Who Can Invest: People with Domain Expertise and Advisors  </div>
+                  <div>✓ Build Stage:<b> $25k worth of service for 10%     Equity</b></div>
+                  <div>✓ Expected Revenue at This Stage: <b>$100+/mth</b></div>
+                  <div>✓ Duration of Raise: <b>1-3mths</b> </div>
+                  <div>✓ Who Can Invest: <b>Developers, Engineers, Growth Marketers</b> </div>
                 </div>
               </div>
               <div className="py-5 px-5 ">
