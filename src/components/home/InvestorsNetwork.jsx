@@ -93,8 +93,8 @@ const InvestorsNetwork = () => {
               <div className="py-5 px-5 ">
                 <div className="bg-black text-white p-5">
                   <div>Work with Service Incubators (SINC) to expedite your time to market</div>
-                  <div>
-                    <button className="btn rounded-full border border-black">Join SINC Network</button>
+                  <div className="mt-3">
+                  <button className="btn rounded-full text-white app-bg-gray border-none">Join SINC Network</button>
                   </div>
                 </div>
               </div>
