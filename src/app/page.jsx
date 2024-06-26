@@ -1,6 +1,7 @@
 import AreaOfFocus from "@/components/home/AreaOfFocus";
 import CoFound from "@/components/home/CoFound";
 import Concept from "@/components/home/Concept";
+import FeaturedIn from "@/components/home/FeaturedIn";
 import HeroSection from "@/components/home/HeroSection";
 import JoinUs from "@/components/home/JoinUs";
 import LowerCTA from "@/components/home/LowerCTA";
@@ -25,6 +26,7 @@ export default function Home() {
       <Studio />
       <CoFound />
       <JoinUs />
+      <FeaturedIn />
       <LowerCTA />
       {/* //footer */}
       <Footer />
