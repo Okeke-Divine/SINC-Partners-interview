@@ -70,7 +70,7 @@ const Studio = () => {
               </div>
             ))}
           </div>
-          <div className="my-2 flex justify-center">
+          <div className="my-3 flex justify-center">
             <Link href="#" className="flex gap-1 font-bold mt-2">
               <span className="font-bold underline">View All Companies </span>
               <div>

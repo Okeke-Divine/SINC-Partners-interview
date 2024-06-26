@@ -25,7 +25,7 @@
     @apply rounded-[12px];
   }
   .app-padding-y {
-    @apply py-5 md:py-10;
+    @apply py-3 md:py-6;
   }
   .app-flex-center {
     @apply flex justify-center;
