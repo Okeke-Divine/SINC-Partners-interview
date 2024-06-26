@@ -19,8 +19,35 @@ const InvestorsNetwork = () => {
           </div>
           <div className="my-5">
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 border-[#A4A4A4] border-y-[1px]">
-              <div className="py-5 border-r-[1px] border-[#A4A4A4]">
+              <div className="py-5 px-5 border-r-[1px] border-[#A4A4A4]">
                 <div className="font-bold">Deal 1</div>
+                <div className="mt-2">
+                  <div>✓ Idea Stage: $5k for 5% Equity</div>
+                  <div>✓ Expected Revenue at This Stage: $0/mth</div>
+                  <div>✓ Duration of Raise: 1mth</div>
+                  <div>✓ Who Can Invest: People with Domain Expertise and Advisors  </div>
+                </div>
+              </div>
+              <div className="py-5 px-5 border-r-[1px] border-[#A4A4A4]">
+                <div className="font-bold">Deal 2</div>
+                <div className="mt-2">
+                  <div>✓ Idea Stage: $5k for 5% Equity</div>
+                  <div>✓ Expected Revenue at This Stage: $0/mth</div>
+                  <div>✓ Duration of Raise: 1mth</div>
+                  <div>✓ Who Can Invest: People with Domain Expertise and Advisors  </div>
+                </div>
+              </div>
+              <div className="py-5 px-5 border-r-[1px] border-[#A4A4A4]">
+                <div className="font-bold">Deal 3</div>
+                <div className="mt-2">
+                  <div>✓ Idea Stage: $5k for 5% Equity</div>
+                  <div>✓ Expected Revenue at This Stage: $0/mth</div>
+                  <div>✓ Duration of Raise: 1mth</div>
+                  <div>✓ Who Can Invest: People with Domain Expertise and Advisors  </div>
+                </div>
+              </div>
+              <div className="py-5 px-5 ">
+                <div className="font-bold">Deal 4</div>
                 <div className="mt-2">
                   <div>✓ Idea Stage: $5k for 5% Equity</div>
                   <div>✓ Expected Revenue at This Stage: $0/mth</div>
