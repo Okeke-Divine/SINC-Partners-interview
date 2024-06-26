@@ -3,12 +3,12 @@ const HeroSection = () => {
     <>
       <div className="app-padding app-padding-y">
         <div className="grid grid-cols-1 md:grid-cols-2">
-          <div>
+          <div className="max-w-[400px]">
             <h3>SINC Partners is a service incubation company </h3>
-            <div className="text-gray-600">
+            <div className="text-gray-600 mt-5">
               Connecting experts in product development and growth marketing willing to offer their services to amazing startups in exchange for minute equity (usually 0.5% to 2%).
             </div>
-            <div>
+            <div className="mt-5">
               <button className="btn rounded-full text-white app-bg-gray">SINC With Us</button>
             </div>
           </div>
