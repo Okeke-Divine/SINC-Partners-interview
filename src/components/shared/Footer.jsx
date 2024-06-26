@@ -165,7 +165,7 @@ const Footer = () => {
                   <div className="text-[#C9C9C9]">We are a business built on the foundation of Christian values and belief</div>
                 </div>
                 {/* socials */}
-                <div className="flex gap-2 flex-wrap items-center justify-center mt-2 w-full">
+                <div className="flex gap-2 md:gap-5 flex-wrap items-center justify-center mt-2 w-full">
                   {socials.map((social, index) => (
                     <Link href="#" target="_blank">
                       <img src={"/images/icon/" + social.imageUrl+".png"} alt="social icon" />
