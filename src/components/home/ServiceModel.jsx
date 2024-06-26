@@ -9,7 +9,13 @@ const ServiceModel = () => {
                     </div>
                 </div>
                 <div className="mt-5">
-
+                    {/* hyp */}
+                    <div>
+                        <h3>Hypothesis</h3>
+                        <div className="my-5 text-gray-600">
+                            Just a few reasons we know its time for this model within the ecosystem
+                        </div>
+                    </div>
                 </div>
             </div>
         </>
