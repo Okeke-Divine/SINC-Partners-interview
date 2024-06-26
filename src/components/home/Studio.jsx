@@ -64,7 +64,7 @@ const Studio = () => {
           <div className="grid grid-cols-3 md:grid-cols-6 lg:grid-cols-8 gap-2 md:gap-5">
             {companies.map((company, index) => (
               <div className="bg-white app-radius-2 p-5 overflow-hidden w-30 h-16 flex justify-center items-center" key={index}>
-                <img src={`/images/studio/${company}`} alt="company logo" className="object-fill h-full w-full" />
+                <img src={`/images/studio/${company}`} alt="company logo" className="object-contain" />
               </div>
             ))}
           </div>
