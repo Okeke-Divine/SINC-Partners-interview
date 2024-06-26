@@ -15,6 +15,10 @@ const Footer = () => {
             </form>
           </div>
         </div>
+        <div className="divider"></div>
+        {/* links */}
+          <div className="custom-px-1"></div>
+        <div className="divider"></div>
       </div>
     </>
   )
