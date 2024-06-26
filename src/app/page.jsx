@@ -5,6 +5,7 @@ import Concept from "@/components/home/Concept";
 import Equity from "@/components/home/Equity";
 import FeaturedIn from "@/components/home/FeaturedIn";
 import HeroSection from "@/components/home/HeroSection";
+import InvestorsNetwork from "@/components/home/InvestorsNetwork";
 import JoinUs from "@/components/home/JoinUs";
 import LowerCTA from "@/components/home/LowerCTA";
 import NetWork from "@/components/home/NetWork";
@@ -30,6 +31,7 @@ export default function Home() {
       <JoinUs />
       <Blogs />
       {/* // */}
+      <InvestorsNetwork />
       <Equity />
       <FeaturedIn />
       <LowerCTA />
