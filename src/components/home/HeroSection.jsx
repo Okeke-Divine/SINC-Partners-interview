@@ -1,9 +1,9 @@
 const HeroSection = () => {
   return (
     <>
-      <div className="app-padding app-padding-y">
+      <div>
         <div className="grid grid-cols-1 md:grid-cols-2">
-          <div className="flex items-center bg-white h-full">
+          <div className="flex items-center bg-white h-full pl-5 md:pl-10">
             <div className="max-w-[400px]">
               <h3>SINC Partners is a service incubation company </h3>
               <div className="text-gray-600 mt-3">
