@@ -1,5 +1,13 @@
 import Link from "next/link"
 
+const blogs = [
+  {
+    img1: "",
+    img2: ""
+  }
+]
+
+
 const Blogs = () => {
   return (
     <>
