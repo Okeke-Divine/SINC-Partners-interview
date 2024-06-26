@@ -17,6 +17,11 @@ const InvestorsNetwork = () => {
           <div className="text-xl">
             <span className="font-bold">Micro Angel Investors & Service incubators </span> <span className="text-gray-600">(Invest from $500 & above)</span>
           </div>
+          <div className="my-5">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 border-[#A4A4A4] border-y-2">
+s
+            </div>
+          </div>
           {/* investors */}
           <div className="text-xl">
             <span className="font-bold">Angel Investors & Venture Capital </span> <span className="text-gray-600">(Invest from $50k & above)</span>
