@@ -1,7 +1,7 @@
 import Link from "next/link"
 
 const socials = [
-  { icon: "" },
+  { imageUrl: "chat" },
 ]
 
 const platforms = [
@@ -161,9 +161,9 @@ const Footer = () => {
                 {/* socials */}
                 <div className="flex gap-2 flex-wrap">
                   {socials.map((social, index) => (
-                    <div className="w-10 h-10 rounded-full flex justify-center items-center">
-                      {social}
-                    </div>
+                    <Link href="#" target="_blank">
+                      <img src={"/images/icon/" + social.imageUrl+".png"} alt="social icon" />
+                    </Link>
                   ))}
                 </div>
               </div>
