@@ -3,6 +3,7 @@ import CoFound from "@/components/home/CoFound";
 import Concept from "@/components/home/Concept";
 import HeroSection from "@/components/home/HeroSection";
 import JoinUs from "@/components/home/JoinUs";
+import LowerCTA from "@/components/home/LowerCTA";
 import NetWork from "@/components/home/NetWork";
 import Quote from "@/components/home/Quote";
 import ServiceModel from "@/components/home/ServiceModel";
@@ -24,6 +25,7 @@ export default function Home() {
       <Studio />
       <CoFound />
       <JoinUs />
+      <LowerCTA />
       {/* //footer */}
       <Footer />
     </>
