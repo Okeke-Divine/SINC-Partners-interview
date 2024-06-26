@@ -91,12 +91,11 @@ const InvestorsNetwork = () => {
                 </div>
               </div>
               <div className="py-5 px-5 ">
-                <div className="font-bold">Deal 4</div>
-                <div className="mt-2">
-                  <div>✓ Validation Stage: <b> $125k worth of service for 5% Equity</b></div>
-                  <div>✓ Expected Revenue at This Stage: <b>$5k+/mth</b></div>
-                  <div>✓ Duration of Raise: <b>6-12mths</b> </div>
-                  <div>✓ Who Can Invest: <b>Media, Influencers, Celebrity, Platform Owners</b> </div>
+                <div className="bg-black text-white p-5">
+                  <div>Work with Service Incubators (SINC) to expedite your time to market</div>
+                  <div>
+                    <button className="btn rounded-full border border-black">Join SINC Network</button>
+                  </div>
                 </div>
               </div>
             </div>
