@@ -2,9 +2,17 @@ import Link from "next/link"
 
 const blogs = [
   {
-    img1: "",
-    img2: ""
-  }
+    img1: "02ff14d17d559dbb9556ce68ee13aacc.jpg",
+    img2: "Frame 49275.png"
+  },
+  {
+    img1: "6c06028c517fbb1cb5125ec87cd5db1f.jpg",
+    img2: "Frame 49275-1.png"
+  },
+  {
+    img1: "02ff14d17d559dbb9556ce68ee13aacc.jpg",
+    img2: "Frame 49275-2.png"
+  },
 ]
 
 
