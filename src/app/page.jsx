@@ -29,10 +29,10 @@ export default function Home() {
       <Studio />
       <CoFound />
       <JoinUs />
-      <Blogs />
       {/* // */}
       <InvestorsNetwork />
       <Equity />
+      <Blogs />
       <FeaturedIn />
       <LowerCTA />
       {/* //footer */}
