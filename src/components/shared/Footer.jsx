@@ -11,6 +11,39 @@ const platforms = [
   "Chekwa",
 ]
 
+const Initiatives = [
+  "Jabi Plains",
+  "Local Pricing Initiative",
+  "Scholarship Program",
+  "SSMN Pricing",
+  "University STEM  ",
+  "University InResidency ",
+  "1M Nigeria Products",
+  "Founders Festival ",
+  ]
+
+const about_us = [
+  "Who We Are",
+  "Our People",
+  "Concept Innovations",
+  "Our Process",
+  "Investors Network",
+  "CSR & Events",
+  "Career",
+  "Contact",
+  ]
+
+const More = [
+"Services",
+"Equity Jobs",
+"EIR Program",
+"Offers",
+"Innovation News",
+"FAQs",
+"Blog & Resources",
+"Press",
+]
+
 
 const Footer = () => {
   return (
@@ -30,7 +63,7 @@ const Footer = () => {
               </form>
             </div>
           </div>
-          <div className="divider"></div>
+          <div className="bg-[#E9E9E94D] w-full h-[1px]"></div>
           {/* links */}
           <div className="custom-px-1">
             <div className="footer">
@@ -45,35 +78,36 @@ const Footer = () => {
                   <div className="font-bold">Platforms</div>
                   <div className="mt-3 flex flex-col gap-2">
                     {platforms.map((platform, index) => (
-                      <Link href="#" className="">{platform}</Link>
+                      <Link href="#" className="text-[#C9C9C9]">{platform}</Link>
                     ))}
                   </div>
                 </div>
                 <div>
                   <div className="font-bold">Initiatives</div>
                   <div className="mt-3 flex flex-col gap-2">
-                    {platforms.map((platform, index) => (
-                      <Link href="#" className="">{platform}</Link>
+                    {Initiatives.map((platform, index) => (
+                      <Link href="#" className="text-[#C9C9C9]">{platform}</Link>
                     ))}
                   </div>
                 </div>
                 <div>
                   <div className="font-bold">About Us</div>
                   <div className="mt-3 flex flex-col gap-2">
-                    {platforms.map((platform, index) => (
-                      <Link href="#" className="">{platform}</Link>
+                    {about_us.map((platform, index) => (
+                      <Link href="#" className="text-[#C9C9C9]">{platform}</Link>
                     ))}
                   </div>
                 </div>
                 <div>
                   <div className="font-bold">More</div>
                   <div className="mt-3 flex flex-col gap-2">
-                    {platforms.map((platform, index) => (
-                      <Link href="#" className="">{platform}</Link>
+                    {More.map((platform, index) => (
+                      <Link href="#" className="text-[#C9C9C9]">{platform}</Link>
                     ))}
                   </div>
                 </div>
               </div>
+          <div className="bg-[#E9E9E94D] w-[1px] h-full"></div>
               {/* locations */}
               <div>
                 <div className="font-bold">Locations</div>
@@ -84,7 +118,7 @@ const Footer = () => {
                 </div>
                 <div className="mt-5 footer">
                   <div>
-                    <img src="/images/aba-white.png" className="w-24" alt="logo" />
+                    <img src="/images/aba-white.png" className="w-28" alt="logo" />
                     <div>Trusted Business</div>
                   </div>
                   <div>
@@ -95,7 +129,7 @@ const Footer = () => {
               </div>
             </div>
           </div>
-          <div className="divider"></div>
+          <div className="bg-[#E9E9E94D] w-full h-[1px]"></div>
           <div className="custom-px-1"></div>
         </div>
       </div>
