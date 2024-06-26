@@ -8,8 +8,8 @@ const Footer = () => {
           <div className="text-white max-w-[500px] mt-2">Get the latest about SINC Partners, our startup Incubator program, Portfolio company offerings - straight into your inbox.</div>
           <div className="mt-5">
             <form action="">
-              <div className="join">
-                <input type="email" placeholder="Enter your email address" required className="input join-item input-bordered bg-transparent" />
+              <div className="join border-white">
+                <input type="email" placeholder="Enter your email address" required className="input join-item input-bordered bg-transparent border-white" />
                 <button className="btn rounded-full join-item bg-white text-[#212121]"> Subscribe</button>
               </div>
             </form>
