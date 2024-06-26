@@ -2,10 +2,10 @@ const Equity = () => {
   return (
     <>
       <div className="app-padding app-padding-y">
-        <h1 className="text-center">Our Concept Innovations</h1>
+        <h1 className="text-center">Equity jobs</h1>
         <div className="app-flex-center">
           <div className="my-5 text-gray-600 text-center max-w-[1000px]">
-            We have proprietary concept innovations that will support the startup ecosystem, support solution-providers/entrepreneurs and ultimately help democratize success;
+            See companies and startups offering equity or a mix of cash and equity for very important position in their company
           </div>
         </div>
         <div className="mt-5 flex justify-center">
