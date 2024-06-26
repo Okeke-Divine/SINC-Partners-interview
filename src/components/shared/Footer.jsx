@@ -1,5 +1,9 @@
 import Link from "next/link"
 
+const socials = [
+  { icon: "" },
+]
+
 const platforms = [
   "Kofoundme",
   "InResidency",
@@ -131,6 +135,40 @@ const Footer = () => {
           </div>
           <div className="bg-[#E9E9E94D] w-full h-[1px] my-5"></div>
           <div className="custom-px-1"></div>
+          {/* //footer bellow */}
+          <div className="custom-px-1">
+            <div className="footer">
+              <div>
+                <div className="text-[#C9C9C9]">Guaranteed 2x on your service or cash investment, usually been the first to invest. <span className="text-white">Get in early and SINC your guaranty!</span></div>
+                <div className="block md:flex gap-10 mt-3">
+                  <div className="font-bold">&copy; 2023 SINC Partners Ltd. All rights reserved</div>
+                  <div>
+                    <div>
+                      <Link href="#" className="underline">Privacy Policy</Link>
+                      <Link href="#" className="underline">Terms of Service</Link>
+                      <Link href="#" className="underline">Security</Link>
+                    </div>
+                    <div className="text-[#C9C9C9] text-center">Web In Nigeria</div>
+                  </div>
+                </div>
+              </div>
+              {/* gasus */}
+              <div>
+                <div className="flex gap-2 md:gap-5">
+                  <img src="/images/GASUS-white.png" className="w-24" alt="logo" />
+                  <div className="text-[#C9C9C9]">We are a business built on the foundation of Christian values and belief</div>
+                </div>
+                {/* socials */}
+                <div className="flex gap-2 flex-wrap">
+                  {socials.map((social, index) => (
+                    <div className="w-10 h-10 rounded-full flex justify-center items-center">
+                      {social}
+                    </div>
+                  ))}
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </>
