@@ -1,6 +1,12 @@
 import Link from "next/link"
 
 const socials = [
+  { imageUrl: "facebook" },
+  { imageUrl: "twitter" },
+  { imageUrl: "instagram" },
+  { imageUrl: "linkedin" },
+  { imageUrl: "medium" },
+  { imageUrl: "youtube" },
   { imageUrl: "chat" },
 ]
 
