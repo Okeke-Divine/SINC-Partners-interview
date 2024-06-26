@@ -7,12 +7,14 @@ import NetWork from "@/components/home/NetWork";
 import Quote from "@/components/home/Quote";
 import ServiceModel from "@/components/home/ServiceModel";
 import Studio from "@/components/home/Studio";
+import Footer from "@/components/shared/Footer";
 import NavBar from "@/components/shared/NavBar";
 
 export default function Home() {
   return (
     <>
       <NavBar />
+      {/* //header */}
       <HeroSection />
       <Quote />
       <NetWork />
@@ -22,6 +24,8 @@ export default function Home() {
       <Studio />
       <CoFound />
       <JoinUs />
+      {/* //footer */}
+      <Footer />
     </>
   );
 }
