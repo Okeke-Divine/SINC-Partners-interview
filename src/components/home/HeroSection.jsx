@@ -49,6 +49,9 @@ const HeroSection = () => {
         }
         .slick-dots li button:before {
           font-size: 12px; /* Adjust the size of the dots */
+          color: white; /* Change the color of the dots */
+          border: 2px solid white; /* Add a white border to the dots */
+          border-radius: 50%; /* Make the dots circular */
         }
       `}</style>
     </div>
