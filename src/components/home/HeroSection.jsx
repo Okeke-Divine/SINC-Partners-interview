@@ -43,7 +43,7 @@ const HeroSection = () => {
   return (
     <>
       <div  className="w-full overflow-hidden">
-        <Slider {...settings} className='bg-red-200'>
+        <Slider {...settings}>
           <SlideContent title="Slide 1" />
           <SlideContent title="Slide 2" />
           <SlideContent title="Slide 3" />
