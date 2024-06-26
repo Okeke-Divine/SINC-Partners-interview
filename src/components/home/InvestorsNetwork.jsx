@@ -49,7 +49,7 @@ const InvestorsNetwork = () => {
               <div className="py-5 px-5 ">
                 <div className="font-bold">Deal 4</div>
                 <div className="mt-2">
-                  <div>✓ Validation Stage: <b> $125k worth of service for 5% Equity</b></div>
+                  <div>✓ Transaction Stage: <b> $125k worth of service for 5% Equity</b></div>
                   <div>✓ Expected Revenue at This Stage: <b>$5k+/mth</b></div>
                   <div>✓ Duration of Raise: <b>6-12mths</b> </div>
                   <div>✓ Who Can Invest: <b>Media, Influencers, Celebrity, Platform Owners</b> </div>
@@ -60,6 +60,46 @@ const InvestorsNetwork = () => {
           {/* investors */}
           <div className="text-xl">
             <span className="font-bold">Angel Investors & Venture Capital </span> <span className="text-gray-600">(Invest from $50k & above)</span>
+          </div>
+          <div className="my-5">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 border-[#A4A4A4] border-y-[1px]">
+              <div className="py-5 px-5 border-r-[1px] border-[#A4A4A4]">
+                <div className="font-bold">Deal 5</div>
+                <div className="mt-2">
+                  <div>✓ Pre Seed Stage: <b>$1.5m for 10% Equity</b></div>
+                  <div>✓ Expected Revenue at This Stage: <b>$50k/mth</b></div>
+                  <div>✓ Duration of Raise: <b>6-18mth</b></div>
+                  <div>✓ Who Can Invest: <b> Angel Investors, VCs, PE, Institutions </b>  </div>
+                </div>
+              </div>
+              <div className="py-5 px-5 border-r-[1px] border-[#A4A4A4]">
+                <div className="font-bold">Deal 6</div>
+                <div className="mt-2">
+                  <div>✓ Seed Stage:<b> $7.2m worth of service for 10%     Equity</b></div>
+                  <div>✓ Expected Revenue at This Stage: <b>$250k+/mth</b></div>
+                  <div>✓ Duration of Raise: <b>12-24mths</b> </div>
+                  <div>✓ Who Can Invest: <b>VCs, PE, Institutions</b> </div>
+                </div>
+              </div>
+              <div className="py-5 px-5 border-r-[1px] border-[#A4A4A4]">
+                <div className="font-bold">Deal 7</div>
+                <div className="mt-2">
+                  <div>✓ IPO Stage: $1.5B for 20% Equity</div>
+                  <div>✓ Expected Revenue at This Stage: <b> $1M+/mth</b></div>
+                  <div>✓ Duration of Raise: <b>18-36mths</b> </div>
+                  <div>✓ Who Can Invest: <b>The Public</b> </div>
+                </div>
+              </div>
+              <div className="py-5 px-5 ">
+                <div className="font-bold">Deal 4</div>
+                <div className="mt-2">
+                  <div>✓ Validation Stage: <b> $125k worth of service for 5% Equity</b></div>
+                  <div>✓ Expected Revenue at This Stage: <b>$5k+/mth</b></div>
+                  <div>✓ Duration of Raise: <b>6-12mths</b> </div>
+                  <div>✓ Who Can Invest: <b>Media, Influencers, Celebrity, Platform Owners</b> </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
