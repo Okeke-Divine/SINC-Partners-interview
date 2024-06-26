@@ -20,7 +20,7 @@ const Initiatives = [
   "University InResidency ",
   "1M Nigeria Products",
   "Founders Festival ",
-  ]
+]
 
 const about_us = [
   "Who We Are",
@@ -31,17 +31,17 @@ const about_us = [
   "CSR & Events",
   "Career",
   "Contact",
-  ]
+]
 
 const More = [
-"Services",
-"Equity Jobs",
-"EIR Program",
-"Offers",
-"Innovation News",
-"FAQs",
-"Blog & Resources",
-"Press",
+  "Services",
+  "Equity Jobs",
+  "EIR Program",
+  "Offers",
+  "Innovation News",
+  "FAQs",
+  "Blog & Resources",
+  "Press",
 ]
 
 
@@ -63,7 +63,7 @@ const Footer = () => {
               </form>
             </div>
           </div>
-          <div className="bg-[#E9E9E94D] w-full h-[1px]"></div>
+          <div className="bg-[#E9E9E94D] w-full h-[1px] my-5"></div>
           {/* links */}
           <div className="custom-px-1">
             <div className="footer">
@@ -107,7 +107,7 @@ const Footer = () => {
                   </div>
                 </div>
               </div>
-          <div className="bg-[#E9E9E94D] w-[1px] h-full"></div>
+              <div className="hidden md:block bg-[#E9E9E94D] w-[1px] h-full"></div>
               {/* locations */}
               <div>
                 <div className="font-bold">Locations</div>
@@ -129,7 +129,7 @@ const Footer = () => {
               </div>
             </div>
           </div>
-          <div className="bg-[#E9E9E94D] w-full h-[1px]"></div>
+          <div className="bg-[#E9E9E94D] w-full h-[1px] my-5"></div>
           <div className="custom-px-1"></div>
         </div>
       </div>
