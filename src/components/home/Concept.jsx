@@ -11,7 +11,7 @@ const Concept = () => {
             <div className="app-padding app-padding-y">
                 <h1 className="text-center">Our Concept Innovations</h1>
                 <div className="app-flex-center">
-                    <div className="my-5 text-gray-600 text-center max-w-[600px]">
+                    <div className="my-5 text-gray-600 text-center max-w-[1000px]">
                         We have proprietary concept innovations that will support the startup ecosystem, support solution-providers/entrepreneurs and ultimately help democratize success;
                     </div>
                 </div>

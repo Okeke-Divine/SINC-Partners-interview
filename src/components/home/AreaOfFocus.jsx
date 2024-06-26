@@ -12,7 +12,7 @@ const AreaOfFocus = () => {
             <div className="app-padding app-padding-y">
                 <h1 className="text-center">Our Area Of Focus</h1>
                 <div className="app-flex-center">
-                    <div className="my-5 text-gray-600 text-center max-w-[600px]">
+                    <div className="my-5 text-gray-600 text-center max-w-[1000px]">
                         In our quest to help make success available to everyone, we have initial strategic direction to focus on these five (5) key areas at the lab
                     </div>
                   
