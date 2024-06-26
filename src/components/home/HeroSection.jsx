@@ -45,13 +45,13 @@ const HeroSection = () => {
       </Slider>
       <style jsx global>{`
         .slick-dots {
-          bottom: 10px; /* Adjust this value to move the dots up or down */
+          bottom: 10px; 
         }
         .slick-dots li button:before {
-          font-size: 12px; /* Adjust the size of the dots */
-          color: white; /* Change the color of the dots */
-          border: 2px solid white; /* Add a white border to the dots */
-          border-radius: 50%; /* Make the dots circular */
+          font-size: 12px; 
+          color: white;
+          border: 2px solid white; 
+          border-radius: 50%;
         }
       `}</style>
     </div>
