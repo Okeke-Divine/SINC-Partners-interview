@@ -27,6 +27,10 @@ const Blogs = () => {
               <>
                 <div>
 
+                  <div>
+                    <img src={"/images/blog/" + blog.img1} alt="blog thumbnail" />
+                  </div>
+
                   <div className="flex gap-2 items-center">
                     <div className="w-[200px]">
                       <div className="font-bold">Top Ten Most Powerful Startup</div>
