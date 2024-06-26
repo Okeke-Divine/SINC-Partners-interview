@@ -14,28 +14,31 @@
   }
 }
 
-@layer components{
+@layer components {
   .app-padding {
     @apply px-5 md:px-10 py-5 md:py-10 lg:px-24 xl:px-28;
   }
-  .app-radius{
+  .app-radius {
     @apply rounded-[32px];
   }
-  .app-radius-2{
+  .app-radius-2 {
     @apply rounded-[12px];
   }
-  .app-padding-y{
+  .app-padding-y {
     @apply py-5 md:py-10;
   }
-  .app-flex-center{
+  .app-flex-center {
     @apply flex justify-center;
+  }
+  .custom-px-1 {
+    @apply px-5 md:px-10 lg:px-16;
   }
 }
 
-.app-bg-blue{
-  background: #20888F;
+.app-bg-blue {
+  background: #20888f;
 }
 
-.app-bg-gray{
+.app-bg-gray {
   background: #303030;
 }

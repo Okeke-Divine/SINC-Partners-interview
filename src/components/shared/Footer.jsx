@@ -1,6 +1,22 @@
 const Footer = () => {
   return (
-    <div>Footer</div>
+    <>
+      <div className="footer bg-[#212121] py-5 md:py-10">
+        {/* newsletter */}
+        <div className="custom-px-1">
+          <h1 className="text-white">Newsletter</h1>
+          <div className="text-white max-w-[500px] mt-2">Get the latest about SINC Partners, our startup Incubator program, Portfolio company offerings - straight into your inbox.</div>
+          <div className="mt-5">
+            <form action="">
+              <div className="join">
+                <input type="email" placeholder="Enter your email address" required className="input join-item input-bordered" />
+                <button className="btn rounded-full join-item bg-white text-[#212121]"></button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </>
   )
 }
 
