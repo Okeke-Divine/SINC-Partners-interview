@@ -6,14 +6,24 @@ const hyps = [
         </svg>
         , content: "Most early-stage companies and pre-product startups cannot afford professional services especially those who don’t have family and friends’ network that can support"
     },
-    { icon: <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <path d="M20 0L40 20L20 40L0 20L20 0Z" fill="#20888F"/>
-    </svg>
-    , content: "If startups can seed 5-10% in equity to incubators for $20k to $200k funding most times, they will be willing to seed 10% equity for a $25k service investment" },
-    { icon: <svg width="40" height="37" viewBox="0 0 40 37" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <path d="M20 0L39.0211 13.8197L31.7557 36.1803H8.2443L0.97887 13.8197L20 0Z" fill="#FF88C6"/>
-    </svg>
-    , content: "Young professionals who don’t have a lot of money to invest nor an accredited investors will have opportunities to take equity at the early stage of their career, usually been the first to invest and almost guaranteed of return" },
+    {
+        icon: <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M20 0L40 20L20 40L0 20L20 0Z" fill="#20888F" />
+        </svg>
+        , content: "If startups can seed 5-10% in equity to incubators for $20k to $200k funding most times, they will be willing to seed 10% equity for a $25k service investment"
+    },
+    {
+        icon: <svg width="40" height="37" viewBox="0 0 40 37" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M20 0L39.0211 13.8197L31.7557 36.1803H8.2443L0.97887 13.8197L20 0Z" fill="#FF88C6" />
+        </svg>
+        , content: "Young professionals who don’t have a lot of money to invest nor an accredited investors will have opportunities to take equity at the early stage of their career, usually been the first to invest and almost guaranteed of return"
+    },
+]
+
+const case_studies = [
+    "Service Incubator Equity",
+    "SEEQ Maths Equation",
+    "Value of my Equity Over Time"
 ]
 
 const ServiceModel = () => {
@@ -38,6 +48,20 @@ const ServiceModel = () => {
                                 <div key={index} className="app-radius-2 bg-white p-5">
                                     <div>{hyp.icon}</div>
                                     <div className="mt-5 text-gray-600">{hyp.content}</div>
+                                </div>
+                            ))}
+                        </div>
+                    </div>
+                    {/* case study */}
+                    <div>
+                        <h3>Case Study</h3>
+                        <div className="mt-2 text-gray-600">
+                            See what Service Incubators get, the maths behind Service Equity (SEEQ) and what the value of your share equity can be over time
+                        </div>
+                        <div className="mt-5 flex gap-2 md:gap-5">
+                            {case_studies.map((case_study, index) => (
+                                <div key={index} className="badge badge-xl bg-white p-5 border border-black font-bold">
+                                    {case_study}
                                 </div>
                             ))}
                         </div>
