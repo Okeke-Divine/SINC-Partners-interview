@@ -1,3 +1,4 @@
+import Link from "next/link"
 
 const infos = [
     { title: "We Ideate", content: "We internally generate concepts and ideas that help solve problems in our thesis areas, after which we proceed to develop a nano/micro MVP (usually having as low as 30 functions to as high as 100 functions) of the product that we take to the market.", color: "bg-[black]" },

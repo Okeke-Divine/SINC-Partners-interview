@@ -2,6 +2,7 @@ import AreaOfFocus from "@/components/home/AreaOfFocus";
 import CoFound from "@/components/home/CoFound";
 import Concept from "@/components/home/Concept";
 import HeroSection from "@/components/home/HeroSection";
+import JoinUs from "@/components/home/JoinUs";
 import NetWork from "@/components/home/NetWork";
 import Quote from "@/components/home/Quote";
 import ServiceModel from "@/components/home/ServiceModel";
@@ -20,6 +21,7 @@ export default function Home() {
       <ServiceModel />
       <Studio />
       <CoFound />
+      <JoinUs />
     </>
   );
 }
