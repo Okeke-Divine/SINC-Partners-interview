@@ -9,8 +9,8 @@ const Footer = () => {
           <div className="mt-5">
             <form action="">
               <div className="join">
-                <input type="email" placeholder="Enter your email address" required className="input join-item input-bordered" />
-                <button className="btn rounded-full join-item bg-white text-[#212121]"></button>
+                <input type="email" placeholder="Enter your email address" required className="input join-item input-bordered bg-transparent" />
+                <button className="btn rounded-full join-item bg-white text-[#212121]"> Subscribe</button>
               </div>
             </form>
           </div>
