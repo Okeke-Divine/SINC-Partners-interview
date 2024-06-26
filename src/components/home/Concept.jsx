@@ -19,7 +19,7 @@ const Concept = () => {
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-2">
                         {concepts.map((concept, index) => (
                             <div key={index} className="bg-white app-radius-2 p-5">
-                                <div className="text-center font-bold">{concept.title}</div>
+                                <div className="text-center font-bold text-xl">{concept.title}</div>
                                 <div className="mt-5 text-gray-600 text-center">{concept.content}</div>
                             </div>
                         ))}

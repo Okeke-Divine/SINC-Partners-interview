@@ -3,6 +3,7 @@ import Concept from "@/components/home/Concept";
 import HeroSection from "@/components/home/HeroSection";
 import NetWork from "@/components/home/NetWork";
 import Quote from "@/components/home/Quote";
+import ServiceModel from "@/components/home/ServiceModel";
 import NavBar from "@/components/shared/NavBar";
 import Image from "next/image";
 
@@ -15,6 +16,7 @@ export default function Home() {
       <NetWork />
       <AreaOfFocus />
       <Concept />
+      <ServiceModel />
     </>
   );
 }
