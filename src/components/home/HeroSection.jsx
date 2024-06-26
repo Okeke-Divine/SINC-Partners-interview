@@ -2,7 +2,17 @@ const HeroSection = () => {
   return (
     <>
       <div className="app-padding app-padding-y">
-        Hero Sections
+        <div className="grid grid-cols-1 md:grid-cols-2">
+          <div>
+            <h3>SINC Partners is a service incubation company </h3>
+            <div className="text-gray-600">
+              Connecting experts in product development and growth marketing willing to offer their services to amazing startups in exchange for minute equity (usually 0.5% to 2%).
+            </div>
+            <div>
+              <button className="btn rounded-full text-white app-bg-gray">SINC With Us</button>
+            </div>
+          </div>
+        </div>
       </div>
     </>
   )
