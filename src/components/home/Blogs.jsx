@@ -28,11 +28,11 @@ const Blogs = () => {
                 <div>
 
                   <div className="flex gap-2">
-                    <div>
+                    <div className="grow">
                       <div className="font-bold">Top Ten Most Powerful Startup</div>
                       <div className="mt-2">Top Ten Most Powerful Startup. Top Ten Most Powerful Startup. Top Ten Most Powerful Startup</div>
                     </div>
-                    <div><img src={"/images/blog/" + blog.img2} alt="blog image" /></div>
+                    <div className="w-[85px] w-[79px]"><img className="w-full h-full" src={"/images/blog/" + blog.img2} alt="blog image" /></div>
                   </div>
 
                 </div></>
