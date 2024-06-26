@@ -53,7 +53,7 @@ const ServiceModel = () => {
                         </div>
                     </div>
                     {/* case study */}
-                    <div className="mt-5">
+                    <div className="mt-7">
                         <h3>Case Study</h3>
                         <div className="mt-2 text-gray-600">
                             See what Service Incubators get, the maths behind Service Equity (SEEQ) and what the value of your share equity can be over time

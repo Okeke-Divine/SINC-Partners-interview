@@ -1,6 +1,10 @@
 const HeroSection = () => {
   return (
-    <div>HeroSection</div>
+    <>
+      <div className="app-padding app-padding-y">
+        Hero Sections
+      </div>
+    </>
   )
 }
 

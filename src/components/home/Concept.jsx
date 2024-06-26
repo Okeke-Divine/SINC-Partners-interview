@@ -1,4 +1,3 @@
-
 const concepts = [
     { title: "Service Incubator", content: "A service-for-shares model of incubating pre-product startups and early-stage companies by building their early stage product and MVP" },
     { title: "Virtualting", content: "A resource share model that allows companies share the time of resources (employees, consultants, technical advisers or influencers) while also splitting the service cost of the resource" },
