@@ -58,9 +58,9 @@ const FeaturedIn = () => {
         <h3 className="text-center">As Featured In</h3>
         <div className="mt-5">
           <Slider {...settings}>
-            <SlideContent />
-            <SlideContent />
-            <SlideContent />
+            <SlideContent img1="Frame 49252.png" img2="bujnews green.png" />
+            <SlideContent img1="Frame 49252-1.png" img2="punch-newspaper-logo-1024x768.png" />
+            <SlideContent img1="Frame 49252.png" img2="punch-newspaper-logo-1024x768.png" />
           </Slider>
         </div>
       </div>
