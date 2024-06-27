@@ -3,6 +3,7 @@ import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import Link from "next/link"
+import { useRef } from 'react';
 
 const msgs = [
     {
@@ -91,6 +92,15 @@ const JoinUs = () => {
         ],
     };
 
+    const sliderRef = useRef(null);
+
+    const goToNext = () => {
+        sliderRef.current.slickNext();
+    };
+
+    const goToPrev = () => {
+        sliderRef.current.slickPrev();
+    };
 
     return (
         <>
@@ -102,7 +112,7 @@ const JoinUs = () => {
                     </div>
                 </div>
                 <div className="mt-5">
-                    <Slider {...settings}>
+                    <Slider ref={sliderRef} {...settings}>
                         {msgs.map((msg, index) => (
                             <>
                                 <SlideContent icon={msg.icon} title={msg.title} content={msg.content} />
@@ -120,8 +130,12 @@ const JoinUs = () => {
                         </Link>
                     </div>
                     <div className="flex gap-5 justify-center">
-                        <button className="btn rounded-full border-black border-2">2</button>
-                        <button className="btn rounded-full border-black border-2">2</button>
+                        <button className="btn rounded-full border-black border-2" onClick={goToPrev}>
+                            Previous
+                        </button>
+                        <button className="btn rounded-full border-black border-2" onClick={goToNext}>
+                            Next
+                        </button>
                     </div>
                 </div>
             </div>
