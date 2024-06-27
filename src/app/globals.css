@@ -42,3 +42,8 @@
 .app-bg-gray {
   background: #303030;
 }
+
+
+html,body{
+  overflow-x:hidden;
+}
