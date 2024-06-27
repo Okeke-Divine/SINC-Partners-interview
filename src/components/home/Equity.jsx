@@ -53,7 +53,7 @@ const Equity = () => {
                   <div className="text-right">Full-time</div>
                 </div>
               </div>
-              <div className="flex justify-center my-2">
+              <div className="flex justify-center mt-2">
                 <button className="rounded-full btn btn-md text-white bg-[#303030]">View Detials</button>
               </div>
             </div>
