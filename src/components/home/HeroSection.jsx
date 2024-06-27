@@ -7,8 +7,8 @@ function SlideContent({ title }) {
   return (
     <div className="grid grid-cols-1 md:grid-cols-2">
     <div className="order-2 md:order-1">
-      <div className="flex items-center bg-white h-full pl-5 md:pl-10">
-        <div className="max-w-[400px] py-2">
+      <div className="flex items-center justify-center bg-white h-full pl-5 md:pl-10">
+        <div className="w-fit max-w-[400px] py-2">
           <h3>({title}) SINC Partners is a service incubation company</h3>
           <div className="text-gray-600 mt-3">
             Connecting experts in product development and growth marketing willing to offer their services to amazing startups in exchange for minute equity (usually 0.5% to 2%).
