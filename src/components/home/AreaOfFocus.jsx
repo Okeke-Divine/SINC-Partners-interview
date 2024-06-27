@@ -24,7 +24,7 @@ const AreaOfFocus = () => {
                                     <div>
                                         {area.number}
                                     </div>
-                                    <div className="mt-5">{area.title}</div>
+                                    <div className="mt-10">{area.title}</div>
                                 </div>
                             ))}
                         </div>
