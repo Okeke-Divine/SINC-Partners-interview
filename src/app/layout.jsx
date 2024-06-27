@@ -9,6 +9,18 @@ export const metadata = {
   icons: {
     icon: '/images/logo-white.png',
   },
+  openGraph: {
+    images: [banner_url],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "SINC Partners",
+    description: "Connecting experts in product development and growth marketing willing to offer their services to amazing startups in exchange for minute equity (usually 0.5% to 2%).",
+    creator: "@okekedivine__",
+    images: {
+      url: banner_url,
+    }
+  },
 };
 
 export default function RootLayout({ children }) {
