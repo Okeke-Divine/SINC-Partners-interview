@@ -37,6 +37,13 @@ const msgs = [
     }
 ]
 
+const sliderArrowStyles = {
+    backgroundColor: 'black',
+    width: '40px',
+    height: '40px',
+    zIndex: 10,
+};
+
 function SlideContent({ icon, title, content }) {
     return (
         <>
@@ -75,7 +82,7 @@ const JoinUs = () => {
                     </div>
                 </div>
                 <div className="mt-5">
-                    <Slider {...settings}>
+                    <Slider {...settings} nextArrow={<NextArrow style={sliderArrowStyles} />} prevArrow={<PrevArrow style={sliderArrowStyles} />}>
                         {msgs.map((msg, index) => (
                             <>
                                 <SlideContent icon={msg.icon} title={msg.title} content={msg.content} />
