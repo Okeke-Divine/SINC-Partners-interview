@@ -127,7 +127,7 @@ const Footer = () => {
                   <div>Philadelphia, USA</div>
                 </div>
                 <div className="mt-5 footer">
-                  <div>
+                  <div className="bg-red-200">
                     <img src="/images/aba-white.png" className="w-28" alt="logo" />
                     <div>Trusted Business</div>
                   </div>
@@ -160,8 +160,10 @@ const Footer = () => {
               </div>
               {/* gasus */}
               <div>
-                <div className="flex gap-2 md:gap-5">
+                <div className="block md:flex gap-2 md:gap-5">
+                      <div>
                   <img src="/images/GASUS-white.png" className="w-24" alt="logo" />
+                      </div>
                   <div className="text-[#C9C9C9]">We are a business built on the foundation of Christian values and belief</div>
                 </div>
                 {/* socials */}
