@@ -19,7 +19,7 @@ const InvestorsNetwork = () => {
           </div>
           <div className="my-5">
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 border-[#A4A4A4] border-y-[1px]">
-              <div className="py-5 px-5 border-r-[1px] border-[#A4A4A4]">
+              <div className="py-5 px-5 border-b-[1px] md:border-r-[1px] md:border-b-[0px] border-[#A4A4A4]">
                 <div className="font-bold">Deal 1</div>
                 <div className="mt-2">
                   <div>✓ Idea Stage: <b>$5k for 5% Equity</b></div>
@@ -28,7 +28,7 @@ const InvestorsNetwork = () => {
                   <div>✓ Who Can Invest: <b>People with Domain Expertise and Advisors</b>  </div>
                 </div>
               </div>
-              <div className="py-5 px-5 border-r-[1px] border-[#A4A4A4]">
+              <div className="py-5 px-5 border-b-[1px] md:border-r-[1px] md:border-b-[0px] border-[#A4A4A4]">
                 <div className="font-bold">Deal 2</div>
                 <div className="mt-2">
                   <div>✓ Build Stage:<b> $25k worth of service for 10%     Equity</b></div>
@@ -37,7 +37,7 @@ const InvestorsNetwork = () => {
                   <div>✓ Who Can Invest: <b>Developers, Engineers, Growth Marketers</b> </div>
                 </div>
               </div>
-              <div className="py-5 px-5 border-r-[1px] border-[#A4A4A4]">
+              <div className="py-5 px-5 border-b-[1px] md:border-r-[1px] md:border-b-[0px] border-[#A4A4A4]">
                 <div className="font-bold">Deal 3</div>
                 <div className="mt-2">
                   <div>✓ Validation Stage: $50k for 5% Equity</div>
@@ -63,7 +63,7 @@ const InvestorsNetwork = () => {
           </div>
           <div className="my-5">
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 border-[#A4A4A4] border-y-[1px]">
-              <div className="py-5 px-5 border-r-[1px] border-[#A4A4A4]">
+              <div className="py-5 px-5 border-b-[1px] md:border-r-[1px] md:border-b-[0px] border-[#A4A4A4]">
                 <div className="font-bold">Deal 5</div>
                 <div className="mt-2">
                   <div>✓ Pre Seed Stage: <b>$1.5m for 10% Equity</b></div>
@@ -72,7 +72,7 @@ const InvestorsNetwork = () => {
                   <div>✓ Who Can Invest: <b> Angel Investors, VCs, PE, Institutions </b>  </div>
                 </div>
               </div>
-              <div className="py-5 px-5 border-r-[1px] border-[#A4A4A4]">
+              <div className="py-5 px-5 border-b-[1px] md:border-r-[1px] md:border-b-[0px] border-[#A4A4A4]">
                 <div className="font-bold">Deal 6</div>
                 <div className="mt-2">
                   <div>✓ Seed Stage:<b> $7.2m worth of service for 10%     Equity</b></div>
@@ -81,7 +81,7 @@ const InvestorsNetwork = () => {
                   <div>✓ Who Can Invest: <b>VCs, PE, Institutions</b> </div>
                 </div>
               </div>
-              <div className="py-5 px-5 border-r-[1px] border-[#A4A4A4]">
+              <div className="py-5 px-5 border-b-[1px] md:border-r-[1px] md:border-b-[0px] border-[#A4A4A4]">
                 <div className="font-bold">Deal 7</div>
                 <div className="mt-2">
                   <div>✓ IPO Stage: $1.5B for 20% Equity</div>
