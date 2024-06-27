@@ -128,7 +128,7 @@ const Footer = () => {
                 </div>
                 <div className="mt-5 flex gap-2 footer">
                   <div className="">
-                    <img src="/images/aba-white.png" className="md:w-32" alt="logo" />
+                    <img src="/images/aba-white.png" className="" alt="logo" />
                     <div>Trusted Business</div>
                   </div>
                   <div>
