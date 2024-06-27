@@ -7,10 +7,10 @@ function SlideContent({ img1, img2 }) {
   return (
     <>
       <div className="flex rounded-lg overflow-hidden">
-      <div className='w-3/4 overflow-hidden'>
+      <div className='w-3/5 overflow-hidden'>
         <img src={`/images/featured/${img1}`} alt="featured image" className="w-full h-full object-cover" />
       </div>
-        <div className='w-1/4 bg-white'>
+        <div className='w-2/5 bg-white p-5 md:p-10'>
           <img src={`/images/featured/${img2}`} alt="news paper logo" />
           <div className="mt-2 font-bold">SINC Partners invests  over 200 million naira in 5 startups</div>
           <div className="mt-2 text-gray-600">SINC Partners invests  over 200 million naira in 5 startups. SINC Partners invests  over 200 million naira in 5 startups SINC Partners invests  over 200 million naira in ....</div>
