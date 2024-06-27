@@ -60,30 +60,36 @@ function SlideContent({ icon, title, content }) {
 
 const JoinUs = () => {
 
-        const settings = {
-          dots: false,
-          infinite: true,
-          speed: 500,
-          slidesToShow: 3,
-          slidesToScroll: 1,
-          autoplay: true,
-          autoplaySpeed: 3000,
-          pauseOnHover: true,
-          responsive: [
+    const settings = {
+        dots: false,
+        infinite: true,
+        speed: 500,
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 3000,
+        pauseOnHover: true,
+        responsive: [
             {
-              breakpoint: 1024, // Large screens and above
-              settings: {
-                slidesToShow: 3,
-              },
+                breakpoint: 1300, //extra Large screens and above
+                settings: {
+                    slidesToShow: 3,
+                },
             },
             {
-              breakpoint: 768, // Medium screens
-              settings: {
-                slidesToShow: 1,
-              },
+                breakpoint: 1024, // Large screens and above
+                settings: {
+                    slidesToShow: 2,
+                },
             },
-          ],
-        };
+            {
+                breakpoint: 768, // Medium screens
+                settings: {
+                    slidesToShow: 1,
+                },
+            },
+        ],
+    };
 
 
     return (
