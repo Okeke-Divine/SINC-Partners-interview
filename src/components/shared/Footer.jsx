@@ -154,7 +154,7 @@ const Footer = () => {
                       <Link href="#" className="underline">Terms of Service</Link>
                       <Link href="#" className="underline">Security</Link>
                     </div>
-                    <div className="text-[#C9C9C9] text-center">Web In Nigeria 🇳🇬</div>
+                    <div className="text-[#C9C9C9] text-center mt-2">Web In Nigeria 🇳🇬</div>
                   </div>
                 </div>
               </div>
@@ -168,7 +168,7 @@ const Footer = () => {
                 <div className="flex gap-2 md:gap-5 flex-wrap items-center justify-center mt-2 w-full">
                   {socials.map((social, index) => (
                     <Link href="#" target="_blank">
-                      <img src={"/images/icon/" + social.imageUrl+".png"} alt="social icon" />
+                      <img src={"/images/icon/" + social.imageUrl + ".png"} alt="social icon" />
                     </Link>
                   ))}
                 </div>
