@@ -1,4 +1,8 @@
 "use client";
+import Slider from 'react-slick';
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
+
 
 const msgs = [
     {
@@ -48,6 +52,19 @@ function SlideContent({ icon, title, content }) {
 }
 
 const JoinUs = () => {
+
+    const settings = {
+        dots: true,
+        infinite: true,
+        speed: 500,
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 2000,
+        pauseOnHover: true,
+    };
+
+
     return (
         <>
             <div className="app-padding app-padding-y">
@@ -58,11 +75,13 @@ const JoinUs = () => {
                     </div>
                 </div>
                 <div className="mt-5">
-                    {msgs.map((msg, index) => (
-                        <>
-                            <SlideContent icon={msg.icon} title={msg.title} content={msg.content} />
-                        </>
-                    ))}
+                    <Slider {...settings}>
+                        {msgs.map((msg, index) => (
+                            <>
+                                <SlideContent icon={msg.icon} title={msg.title} content={msg.content} />
+                            </>
+                        ))}
+                    </Slider>
                 </div>
             </div>
         </>
