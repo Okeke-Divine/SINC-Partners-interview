@@ -3,7 +3,7 @@ import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
 
-const banner_url = "/images/banner-image.jpg";
+const banner_url = "https://sinc-partners-interview.vercel.app/images/banner-image.jpg";
 
 export const metadata = {
   title: "SINC Partners",
