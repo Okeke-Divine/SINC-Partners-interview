@@ -1,5 +1,6 @@
 "use client"
 import Link from "next/link"
+import { useState } from "react"
 
 const links = [
     { name: "About", url: "#" },
@@ -12,6 +13,46 @@ const links = [
 ]
 
 const NavBar = () => {
+
+    const [isSidebarExpanded, setIsSidebarExpanded] = useState(false);
+
+    useEffect(() => {
+        // Check if window is defined (i.e., we are in the browser environment)
+        if (typeof window !== "undefined") {
+            const isLargeScreen = window.innerWidth >= 768;
+            setIsSidebarExpanded(isLargeScreen);
+
+            const handleResize = () => {
+                setIsSidebarExpanded(window.innerWidth >= 768);
+            };
+
+            const clickFunction = () => {
+                if (window.innerWidth < 768) {
+                    setIsSidebarExpanded(false);
+                }
+            };
+
+            // Add event listener for window resize
+            window.addEventListener("resize", handleResize);
+
+            document.querySelectorAll("a").forEach((e) => {
+                e.addEventListener("click", clickFunction);
+            });
+
+            // Cleanup function to remove event listener
+            return () => {
+                window.removeEventListener("resize", handleResize);
+                document.querySelectorAll("a").forEach((e) => {
+                    e.removeEventListener("click", clickFunction);
+                });
+            };
+        }
+    }, []);
+
+    const toggleSidebar = () => {
+        setIsSidebarExpanded(!isSidebarExpanded);
+    };
+
     return (
         <>
             <div className="navbar bg-white px-5 md:px-10 lg:px-16 py-2 md:py-5 items-center">
@@ -34,7 +75,8 @@ const NavBar = () => {
 
 
             {/* sidebar */}
-            <div className="fixed top-0 left-0 w-[250px] h-[100vh] overflow-y-auto max-h-[100vh] bg-white z-50 p-5">
+            <div className={`fixed top-0 ${isSidebarExpanded ? "left-0" : "-left-full"
+                } w-[250px] h-[100vh] overflow-y-auto max-h-[100vh] bg-white z-50 p-5`}>
                 <div className="block">
                     {links.map((link, index) => (
                         <>
