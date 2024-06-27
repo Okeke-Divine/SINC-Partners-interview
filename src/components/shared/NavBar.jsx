@@ -38,13 +38,13 @@ const NavBar = () => {
                 <div className="block">
                     {links.map((link, index) => (
                         <>
-                            <div>
+                            <div className="mb-2">
                                 <Link className="font-bold" href={link.url}>{link.name}</Link>
                             </div>
                         </>
                     ))}
                 </div>
-                <button className="btn-md btn rounded-full text-white app-bg-blue">SINC With Us</button><br />
+                <button className="btn-md btn rounded-full text-white app-bg-blue my-3">SINC With Us</button><br />
                 <button className="btn-md btn rounded-full text-white app-bg-gray">Apply to SIP 1.0</button>
             </div>
 
