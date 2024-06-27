@@ -92,7 +92,7 @@ const NavBar = () => {
                 <button className="btn-md btn rounded-full text-white app-bg-gray">Apply to SIP 1.0</button>
             </div>
 {/* overlay */}
-       <div className="fixed top-0 left-0 bg-black w-full h-full z-[51]"></div>
+       <div className="fixed top-0 left-0 bg-black bg-opacity-50 w-full h-full z-[51]"></div>
         </>
     )
 }
