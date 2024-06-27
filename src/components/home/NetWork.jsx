@@ -15,9 +15,9 @@ const NetWork = () => {
                         {network_infos.map((network_info, index) => (
                             <div className="bg-white p-5 app-radius-2 flex justify-between flex-col" key={index}>
                                 <div className="font-bold">{network_info.title}</div>
-                                <div className="mt-2 text-gray-600">{network_info.info}</div>
+                                <div className="mt-2 text-gray-600 mt-2">{network_info.info}</div>
                                 <div className="mt-2 text-gray-600 font-bold">{network_info.extra}</div>
-                                <div>
+                                <div className="mt-2">
                                     <Link href={network_info.url} className="flex gap-1 font-bold mt-2">
                                         <span className="font-bold underline">Learn More</span>
                                         <div>
