@@ -49,7 +49,7 @@ function SlideContent({ icon, title, content }) {
     return (
         <>
             <div className="bg-white app-radius-2 p-5 mr-10">
-                <div className="flex justify-center items-center bg-black rounded-full w-14 h-14">
+                <div className="flex justify-center items-center bg-gray-600 rounded-full w-14 h-14">
                     <img src={`/images/svg-png/${icon}`} alt="icon" />
                 </div>
                 <div className="font-bold my-2">{title}</div>
@@ -130,12 +130,12 @@ const JoinUs = () => {
                         </Link>
                     </div>
                     <div className="flex gap-5 justify-center">
-                        <button className="btn rounded-full border-black border-2 w-16 h-16 flex justify-center items-center" onClick={goToPrev}>
+                        <button className="btn rounded-full border-black border-[1px] w-16 h-16 flex justify-center items-center" onClick={goToPrev}>
                             <svg width="31" height="26" viewBox="0 0 31 26" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M1.94281 13H29.0488M1.94281 13L12.7258 23.783M1.94281 13L12.7258 2.21703" stroke="#4D4D4D" stroke-width="2" stroke-linecap="square" />
                             </svg>
                         </button>
-                        <button className="btn rounded-full border-black border-2 w-16 h-16 flex justify-center items-center" onClick={goToNext}>
+                        <button className="btn rounded-full border-black border-[1px] w-16 h-16 flex justify-center items-center" onClick={goToNext}>
                             <svg width="31" height="26" viewBox="0 0 31 26" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M29.0572 13H1.9512M29.0572 13L18.2742 2.21703M29.0572 13L18.2742 23.783" stroke="#4D4D4D" stroke-width="2" stroke-linecap="square" />
                             </svg>
