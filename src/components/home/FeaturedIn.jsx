@@ -35,11 +35,21 @@ const FeaturedIn = () => {
     dots: true,
     infinite: true,
     speed: 500,
-    slidesToShow: 1,
+    slidesToShow: 2,  // Display 2 slides at a time
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 2000,
     pauseOnHover: true,
+    centerMode: true, // Enable center mode for better visual
+    centerPadding: '40px', // Adjust padding around center slide
+    responsive: [
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 1, // Adjust settings for smaller screens if needed
+        }
+      }
+    ]
   };
 
   return (
