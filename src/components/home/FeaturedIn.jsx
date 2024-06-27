@@ -7,11 +7,9 @@ function SlideContent({ img1, img2 }) {
   return (
     <>
       <div className="flex rounded-lg overflow-hidden">
-        <div className='w-3/4'>
-          <div className="overflow-hidden">
-            <img src={`/images/featured/${img1}`} alt="featued image" className="object-contain" />
-          </div>
-        </div>
+      <div className='w-3/4 overflow-hidden'>
+        <img src={img1} alt="featured image" className="w-full h-full object-cover" />
+      </div>
         <div className='w-1/4 bg-white'>
           <img src={`/images/featured/${img2}`} alt="news paper logo" />
           <div className="mt-2 font-bold">SINC Partners invests  over 200 million naira in 5 startups</div>
