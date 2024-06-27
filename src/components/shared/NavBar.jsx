@@ -66,7 +66,7 @@ const NavBar = () => {
 
             {/* sidebar */}
             <div className={`fixed top-0 duration-300 ${isSidebarExpanded ? "left-0" : "-left-full"
-                } md:left-0 w-[250px] h-[100vh] overflow-y-auto max-h-[100vh] bg-white z-[52] p-5`}>
+                } md:-left-full w-[250px] h-[100vh] overflow-y-auto max-h-[100vh] bg-white z-[52] p-5`}>
                 <div className="block">
                     {links.map((link, index) => (
                         <>
