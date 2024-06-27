@@ -78,7 +78,7 @@ const NavBar = () => {
 
             {/* sidebar */}
             <div className={`fixed top-0 duration-300 ${isSidebarExpanded ? "left-0" : "-left-full"
-                } w-[250px] h-[100vh] overflow-y-auto max-h-[100vh] bg-white z-50 p-5`}>
+                } w-[250px] h-[100vh] overflow-y-auto max-h-[100vh] bg-white z-[52] p-5`}>
                 <div className="block">
                     {links.map((link, index) => (
                         <>
@@ -91,7 +91,8 @@ const NavBar = () => {
                 <button className="btn-md btn rounded-full text-white app-bg-blue my-3">SINC With Us</button><br />
                 <button className="btn-md btn rounded-full text-white app-bg-gray">Apply to SIP 1.0</button>
             </div>
-
+{/* overlay */}
+       <div className="fixed top-0 left-0 bg-black w-full h-full z-[51]"></div>
         </>
     )
 }
