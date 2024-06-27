@@ -37,7 +37,7 @@ function SlideContent({ icon, title, content }) {
     return (
         <>
             <div className="bg-white app-radius-2 p-5">
-                <div className="flex justify-center items-center bg-black rounded-full w-10 h-10">
+                <div className="flex justify-center items-center bg-black rounded-full w-14 h-14">
                     <img src={`/images/svg-png/${icon}`} alt="icon" />
                 </div>
                 <div className="font-bold my-2">{title}</div>
