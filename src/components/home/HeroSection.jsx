@@ -5,8 +5,9 @@ import 'slick-carousel/slick/slick-theme.css';
 
 function SlideContent({ title }) {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2">
-      <div className="flex items-center bg-white h-full pl-5 md:pl-10">
+    // <div className="grid grid-cols-1 md:grid-cols-2">
+    <div className="flex flex-col-reverse md:flex-row">
+      <div className="w-full md:w-1/2 flex items-center bg-white md:h-full pl-5 md:pl-10">
         <div className="max-w-[400px] py-2">
           <h3>({title}) SINC Partners is a service incubation company</h3>
           <div className="text-gray-600 mt-3">
@@ -17,7 +18,7 @@ function SlideContent({ title }) {
           </div>
         </div>
       </div>
-      <div className="overflow-hidden">
+      <div className="w-full md:w-1/2 overflow-hidden">
         <img className="w-full object-cover" src="/images/hero-image.png" alt="Hero Image" />
       </div>
     </div>
