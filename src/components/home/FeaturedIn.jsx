@@ -8,7 +8,7 @@ function SlideContent({ img1, img2 }) {
     <>
       <div className="flex rounded-lg overflow-hidden">
       <div className='w-3/5 overflow-hidden'>
-        <img src={`/images/featured/${img1}`} alt="featured image" className="w-full h-full object-cover" />
+        <img src={`/images/featured/${img1}`} alt="featured image" className="object-cover" />
       </div>
         <div className='w-2/5 bg-white p-5 md:p-10'>
           <img src={`/images/featured/${img2}`} alt="news paper logo" />
