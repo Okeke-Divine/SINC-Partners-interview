@@ -11,7 +11,8 @@ export const metadata = {
   icons: {
     icon: '/images/logo-white.png',
   },
-  images: [banner_url],
+  images: ['/images/logo-white.png'],
+  // images: [banner_url],
   openGraph: {
     images: [banner_url],
   },
@@ -22,6 +23,7 @@ export const metadata = {
     creator: "@okekedivine__",
     images: {
       url: banner_url,
+      alt: "SINC Partners's logo",
     }
   },
 };
