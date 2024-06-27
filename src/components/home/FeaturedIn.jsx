@@ -40,13 +40,14 @@ const FeaturedIn = () => {
     autoplay: true,
     autoplaySpeed: 2000,
     pauseOnHover: true,
-    centerMode: true, // Enable center mode for better visual
-    centerPadding: '40px', // Adjust padding around center slide
+    centerMode: true, // Enable center mode
+    centerPadding: '20px', // Adjust padding around center slide
     responsive: [
       {
         breakpoint: 768,
         settings: {
-          slidesToShow: 1, // Adjust settings for smaller screens if needed
+          slidesToShow: 1, // Display 1 slide at a time on smaller screens
+          centerPadding: '40px' // Adjust center padding for smaller screens
         }
       }
     ]
