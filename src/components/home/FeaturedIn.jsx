@@ -7,9 +7,13 @@ function SlideContent() {
   return (
     <>
       <div className="flex">
-        <div className='w-3/4'></div>
+        <div className='w-3/4'>
+          <div className="overflow-hidden">
+            <img src="/images/featured/Frame 49252.png" alt="featued image" className="object-contain" />
+          </div>
+        </div>
         <div className='w-1/4'>
-          <img src="/featured/punch-newspaper-logo-1024x768.png" alt="news paper logo" />
+          <img src="/images/featured/punch-newspaper-logo-1024x768.png" alt="news paper logo" />
           <div className="mt-2 font-bold">SINC Partners invests  over 200 million naira in 5 startups</div>
           <div className="mt-2 text-gray-600">SINC Partners invests  over 200 million naira in 5 startups. SINC Partners invests  over 200 million naira in 5 startups SINC Partners invests  over 200 million naira in ....</div>
 
@@ -44,6 +48,8 @@ const FeaturedIn = () => {
         <h3 className="text-center">As Featured In</h3>
         <div className="mt-5">
           <Slider {...settings}>
+            <SlideContent />
+            <SlideContent />
             <SlideContent />
           </Slider>
         </div>
