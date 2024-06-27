@@ -3,6 +3,17 @@ import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 
+function SlideContent(){
+  return (
+    <>
+      <div className="flex">
+        <div></div>
+        <div></div>
+      </div>
+    </>
+  )
+}
+
 const FeaturedIn = () => {
 
   const settings = {
@@ -22,7 +33,7 @@ const FeaturedIn = () => {
         <h3 className="text-center">As Featured In</h3>
         <div className="mt-5">
           <Slider {...settings}>
-
+<SlideContent />
           </Slider>
         </div>
       </div>
