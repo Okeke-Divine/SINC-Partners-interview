@@ -36,11 +36,7 @@ const Blogs = () => {
                     {/* <!-- Overlay Container --> */}
                     <div class="absolute inset-0 flex items-center justify-center">
                       {/* <!-- Play Button --> */}
-                      <button class="bg-white bg-opacity-75 rounded-full p-4">
-                        <svg class="w-8 h-8 text-gray-800" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 3l14 9-14 9V3z"></path>
-                        </svg>
-                      </button>
+                      <img src="/images/play.png" alt="Play button" />
 
                       {/* <!-- Title --> */}
                       <div class="absolute left-0 bottom-0 bg-black bg-opacity-50 text-white p-2 w-full">
