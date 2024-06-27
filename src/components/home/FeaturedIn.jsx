@@ -6,11 +6,11 @@ import 'slick-carousel/slick/slick-theme.css';
 function SlideContent({ img1, img2 }) {
   return (
     <>
-      <div className="flex justify-center rounded-lg overflow-hidden">
-        <div className='w-3/5 overflow-hidden flex justify-end'>
+      <div className="block md:flex justify-center rounded-lg overflow-hidden">
+        <div className='w-full md:w-3/5 overflow-hidden flex justify-end'>
           <img src={`/images/featured/${img1}`} alt="featured image" className="object-cover rounded-l-lg" />
         </div>
-        <div className='w-2/5 bg-white p-5 md:p-10'>
+        <div className='w-full md:w-2/5 bg-white p-5 md:p-10'>
           <img src={`/images/featured/${img2}`} alt="news paper logo" />
           <div className="mt-2 font-bold">SINC Partners invests  over 200 million naira in 5 startups</div>
           <div className="mt-2 text-gray-600">SINC Partners invests  over 200 million naira in 5 startups. SINC Partners invests  over 200 million naira in 5 startups SINC Partners invests  over 200 million naira in ....</div>
