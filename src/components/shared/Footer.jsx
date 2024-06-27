@@ -67,8 +67,8 @@ const Footer = () => {
             <div className="mt-5">
               <form action="">
                 <div className="border-white rounded-full flex">
-                  <input type="email" placeholder="Enter your email address" required className="input join-item input-bordered bg-transparent border-white rounded-l-full" />
-                  <button className="btn rounded-r-full join-item bg-white text-[#212121]"> Subscribe</button>
+                  <input type="email" placeholder="Enter your email address" required className="input join-item input-bordered bg-transparent border-white rounded-l-full w-full" />
+                  <button className="w-fit btn rounded-r-full join-item bg-white text-[#212121]"> Subscribe</button>
                 </div>
               </form>
             </div>
