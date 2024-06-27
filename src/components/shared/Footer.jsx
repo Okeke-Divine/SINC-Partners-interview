@@ -149,7 +149,7 @@ const Footer = () => {
                 <div className="block md:flex gap-10 mt-3">
                   <div className="font-bold">&copy; 2023 SINC Partners Ltd. All rights reserved</div>
                   <div>
-                    <div>
+                    <div className="flex gap-2">
                       <Link href="#" className="underline">Privacy Policy</Link>
                       <Link href="#" className="underline">Terms of Service</Link>
                       <Link href="#" className="underline">Security</Link>
