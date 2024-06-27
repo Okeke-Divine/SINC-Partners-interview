@@ -27,6 +27,8 @@ const Blogs = () => {
               <>
                 <div>
 
+                  <div class="absolute inset-0 bg-black bg-opacity-50 backdrop-blur-sm"></div>
+
                   <div class="relative mb-5">
                     {/* <!-- Image Container --> */}
                     <div>
@@ -52,7 +54,6 @@ const Blogs = () => {
                       </div>
                     </div>
                   </div>
-
 
                   <div className="flex gap-2 items-center">
                     <div className="w-[200px]">
