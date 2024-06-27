@@ -48,7 +48,7 @@ const Blogs = () => {
 
 
                   <div className="flex gap-2 items-center">
-                    <div className="w-[200px]">
+                    <div className="w-full">
                       <div className="font-bold">Top Ten Most Powerful Startup</div>
                       <div className="mt-2">Top Ten Most Powerful Startup. Top Ten Most Powerful Startup. Top Ten Most Powerful Startup</div>
                     </div>
