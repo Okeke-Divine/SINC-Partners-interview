@@ -40,7 +40,7 @@ const msgs = [
 function SlideContent({ icon, title, content }) {
     return (
         <>
-            <div className="bg-white app-radius-2 p-5">
+            <div className="bg-white app-radius-2 p-5 mr-10">
                 <div className="flex justify-center items-center bg-black rounded-full w-14 h-14">
                     <img src={`/images/svg-png/${icon}`} alt="icon" />
                 </div>
@@ -54,12 +54,12 @@ function SlideContent({ icon, title, content }) {
 const JoinUs = () => {
 
     const settings = {
-        dots: true,
+        dots: false,
         infinite: true,
         speed: 500,
         slidesToShow: 3,
         slidesToScroll: 1,
-        autoplay: true,
+        autoplay: false,
         autoplaySpeed: 2000,
         pauseOnHover: true,
     };
