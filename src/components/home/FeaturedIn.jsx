@@ -1,6 +1,10 @@
 const FeaturedIn = () => {
   return (
-    <div>FeaturedIn</div>
+    <>
+      <div className="app-padding app-padding-y">
+        <h3>As Featured In</h3>
+      </div>
+    </>
   )
 }
 
