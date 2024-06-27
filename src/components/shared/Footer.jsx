@@ -126,9 +126,9 @@ const Footer = () => {
                   <div>Lagos, Nigeria </div>
                   <div>Philadelphia, USA</div>
                 </div>
-                <div className="mt-5 footer">
-                  <div className="bg-red-200">
-                    <img src="/images/aba-white.png" className="w-28" alt="logo" />
+                <div className="mt-5 flex gap-2 footer">
+                  <div className="">
+                    <img src="/images/aba-white.png" className="md:w-32" alt="logo" />
                     <div>Trusted Business</div>
                   </div>
                   <div>
