@@ -27,9 +27,28 @@ const Blogs = () => {
               <>
                 <div>
 
-                  <div>
-                    <img src={"/images/blog/" + blog.img1} alt="blog thumbnail" />
+                  <div class="relative">
+                    {/* <!-- Image Container --> */}
+                    <div>
+                      <img src={"/images/blog/" + blog.img1} alt="blog thumbnail" class="w-full h-auto" />
+                    </div>
+
+                    {/* <!-- Overlay Container --> */}
+                    <div class="absolute inset-0 flex items-center justify-center">
+                      {/* <!-- Play Button --> */}
+                      <button class="bg-white bg-opacity-75 rounded-full p-4">
+                        <svg class="w-8 h-8 text-gray-800" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 3l14 9-14 9V3z"></path>
+                        </svg>
+                      </button>
+
+                      {/* <!-- Title --> */}
+                      <div class="absolute left-0 bottom-0 bg-black bg-opacity-50 text-white p-2">
+                        <span class="text-sm">lol</span>
+                      </div>
+                    </div>
                   </div>
+
 
                   <div className="flex gap-2 items-center">
                     <div className="w-[200px]">
