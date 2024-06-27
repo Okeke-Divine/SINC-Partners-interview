@@ -10,7 +10,7 @@ const blogs = [
     img2: "Frame 49275-1.png"
   },
   {
-    img1: "02ff14d17d559dbb9556ce68ee13aacc.jpg",
+    img1: "6c06028c517fbb1cb5125ec87cd5db1f.jpg",
     img2: "Frame 49275-2.png"
   },
 ]
@@ -25,7 +25,7 @@ const Blogs = () => {
           <div className="grid grid-cols-1 gap-2 md:grid-cols-2 lg:grid-cols-3 md:gap-5">
             {blogs.map((blog, index) => (
               <>
-                <div>
+                <div className="mb-2">
 
                   <div class="relative mb-5">
                     <div class="relative">
