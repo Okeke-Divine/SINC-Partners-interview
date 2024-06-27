@@ -42,7 +42,7 @@ const sliderArrowStyles = {
     width: '40px',
     height: '40px',
     zIndex: 10,
-  };
+};
 
 function SlideContent({ icon, title, content }) {
     return (
@@ -66,7 +66,7 @@ const JoinUs = () => {
         speed: 500,
         slidesToShow: 3,
         slidesToScroll: 1,
-        autoplay: false,
+        autoplay: true,
         autoplaySpeed: 2000,
         pauseOnHover: true,
     };

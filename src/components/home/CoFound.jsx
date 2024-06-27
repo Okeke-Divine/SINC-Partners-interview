@@ -11,7 +11,7 @@ const CoFound = () => {
         <>
             <div className="app-padding app-padding-y">
                 <h1 className="text-center">Co-found With Us</h1>
-                <div className="app-flex-center">
+                <div className="app-flex-center mb-2">
                     <div className="my-5 text-gray-600 text-center max-w-[1000px]">
                         We seek to collaborate with visionary individuals who are solving similar problems of helping entrepreneurs succeed
                     </div>
