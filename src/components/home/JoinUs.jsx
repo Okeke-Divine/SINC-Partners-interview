@@ -33,6 +33,17 @@ const msgs = [
     }
 ]
 
+function SlideContent({ icon, title, content }) {
+    return (
+        <>
+            <div className="bg-white app-radius-2 p-5">
+                <div className="font-bold my-2">{title}</div>
+                <div className="text-gray-600 my-2">{content}</div>
+            </div>
+        </>
+    )
+}
+
 const JoinUs = () => {
     return (
         <>
@@ -44,7 +55,11 @@ const JoinUs = () => {
                     </div>
                 </div>
                 <div className="mt-5">
-                    Join us info ...
+                    {msgs.map((msg, index) => (
+                        <>
+                            <SlideContent icon={msg.icon} title={msg.title} content={msg.content} />
+                        </>
+                    ))}
                 </div>
             </div>
         </>
