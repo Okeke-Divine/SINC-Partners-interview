@@ -3,6 +3,8 @@ import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
 
+const banner_url = "/images/banner-image.jpg";
+
 export const metadata = {
   title: "SINC Partners",
   description: "Connecting experts in product development and growth marketing willing to offer their services to amazing startups in exchange for minute equity (usually 0.5% to 2%).",
