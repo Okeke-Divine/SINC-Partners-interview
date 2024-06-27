@@ -11,6 +11,7 @@ export const metadata = {
   icons: {
     icon: '/images/logo-white.png',
   },
+  images: [banner_url],
   openGraph: {
     images: [banner_url],
   },
