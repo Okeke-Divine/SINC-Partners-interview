@@ -28,7 +28,7 @@ const Initiatives = [
   "SSMN Pricing",
   "University STEM  ",
   "University InResidency ",
-  "1M Nigeria Products",
+  "1M Nigeria 🇳🇬 Products",
   "Founders Festival ",
 ]
 
@@ -154,7 +154,7 @@ const Footer = () => {
                       <Link href="#" className="underline">Terms of Service</Link>
                       <Link href="#" className="underline">Security</Link>
                     </div>
-                    <div className="text-[#C9C9C9] text-center">Web In Nigeria</div>
+                    <div className="text-[#C9C9C9] text-center">Web In Nigeria 🇳🇬</div>
                   </div>
                 </div>
               </div>
