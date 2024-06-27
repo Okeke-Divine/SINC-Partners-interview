@@ -59,7 +59,7 @@ const ServiceModel = () => {
                         <div className="mt-2 text-gray-600">
                             See what Service Incubators get, the maths behind Service Equity (SEEQ) and what the value of your share equity can be over time
                         </div>
-                        <div className="mt-5 flex gap-2 md:gap-5">
+                        <div className="mt-5 flex flex-wrap gap-2 md:gap-5">
                             {case_studies.map((case_study, index) => (
                                 <div key={index} className="badge badge-xl bg-white p-5 border border-black font-bold">
                                     {case_study}
